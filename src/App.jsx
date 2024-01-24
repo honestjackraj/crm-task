@@ -13,7 +13,6 @@ import img8 from "../src/img/2ndpage/8.png";
 import img9 from "../src/img/2ndpage/9.png";
 import img10 from "../src/img/2ndpage/10.png";
 
-
 function App() {
   return (
     <>
@@ -81,25 +80,26 @@ function App() {
       </div>
 
       <div className="container2">
-        <div className="mid-heading">
-          <h2>PROCESS TO IMPROVE THE PRODUCTIVITY</h2>
-        </div>
+        <h2 className="mid-heading">PROCESS TO IMPROVE THE PRODUCTIVITY</h2>
+
         <div className="imgs">
-        <img src={img1} alt="loading" className="img1" />
-        <img src={img2} alt="loading" className="img2" />
-        <img src={img3} alt="loading" className="img3" />
-        <img src={img4} alt="loading" className="img4" />
-        <img src={img5} alt="loading" className="img5" />
-        <img src={img6} alt="loading" className="img6" />
-        <img src={img7} alt="loading" className="img7" />
-        <img src={img8} alt="loading" className="img8" />
-        <img src={img9} alt="loading" className="img9" />
-        <img src={img10} alt="loading" className="img10" />
+          <img src={img1} alt="loading" className="img1" />
+          <img src={img2} alt="loading" className="img2" />
+          <img src={img3} alt="loading" className="img3" />
+          <img src={img4} alt="loading" className="img4" />
+          <img src={img5} alt="loading" className="img5" />
+          <img src={img6} alt="loading" className="img6" />
+          <img src={img7} alt="loading" className="img7" />
+          <img src={img8} alt="loading" className="img8" />
+          <img src={img9} alt="loading" className="img9" />
+          <img src={img10} alt="loading" className="img10" />
         </div>
         <div className="img-headings">
           <span className="img-heading1">1.RECORD</span>
           <span className="img-heading2">2.BREAKDOWN</span>
-          <span className="img-heading3">3.VALUE, NON VALUE & REQUIRED NON VALUE ANALYSIS</span>
+          <span className="img-heading3">
+            3.VALUE, NON VALUE & REQUIREDNON VALUE ANALYSIS
+          </span>
           <span className="img-heading4">4.COMPARISION & IMPLEMENTATION</span>
           <span className="img-heading5">5.RECORD IMPROVEMENT</span>
           <span className="img-heading6">6.TEST IMPROVEMENT</span>
@@ -107,9 +107,18 @@ function App() {
           <span className="img-heading8">8.IMPLEMENT</span>
           <span className="img-heading9">9.REVIEW RESULTS</span>
           <span className="img-heading10">10.DOCUMENTATION</span>
-
         </div>
       </div>
+
+
+
+      {/* arrow */}
+   <div className="right-arrow1"></div>
+   <div className="right-arrow2"></div>
+   <div className="right-arrow3"></div>
+   <div className="left-arrow1"></div>
+   <div className="left-arrow2"></div>
+   <div className="left-arrow3"></div>
     </>
   );
 }
